@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="gc" x1="0" x2="1">
+      <stop offset="0" stop-color="#0ea5a4"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#020617"/>
+  <rect x="40" y="40" width="1120" height="720" rx="24" fill="url(#gc)" />
+  <g transform="translate(120,120)">
+    <rect width="960" height="560" rx="16" fill="#071226" opacity="0.6" />
+    <text x="480" y="280" font-family="Inter, Arial, sans-serif" font-size="36" fill="#fff" text-anchor="middle">CAZH Redesign — Placeholder</text>
+  </g>
+</svg>
