@@ -349,7 +349,7 @@ export default function FullWidthTabs() {
                   },
                 },
                 "&.Mui-selected": {
-                  color: "#fff",
+                  color: "#a855f7 !important",
                   background: "linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(59, 130, 246, 0.2))",
                   boxShadow: "0 4px 15px -3px rgba(139, 92, 246, 0.2)",
                   "& .lucide": {

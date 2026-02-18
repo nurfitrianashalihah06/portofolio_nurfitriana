@@ -45,7 +45,7 @@ const socialLinks = [
     subText: "@nurfitrianashalihah06",
     icon: Github,
     url: "https://github.com/nurfitrianashalihah06",
-    color: "#ffffff",
+    color: "#060606",
     gradient: "from-[#333] to-[#24292e]",
   },
   {
@@ -108,9 +108,9 @@ const SocialLinks = () => {
   }, []);
 
   return (
-    <div className="w-full bg-gradient-to-br from-white/10 to-white/5 rounded-2xl p-6 py-8 backdrop-blur-xl">
+    <div className="w-full bg-gradient-to-br from-white/100 to-white/10 rounded-2xl p-6 py-8 backdrop-blur-xl">
       <h3
-        className="text-xl font-semibold text-white mb-6 flex items-center gap-2"
+        className="text-xl font-semibold text-[#6366f1] mb-6 flex items-center gap-2"
         data-aos="fade-down" 
       >
         <span className="inline-block w-8 h-1 bg-indigo-500 rounded-full"></span>
@@ -124,8 +124,8 @@ const SocialLinks = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="group relative flex items-center justify-between p-4 rounded-lg 
-                     bg-white/5 border border-white/10 overflow-hidden
-                     hover:border-white/20 transition-all duration-500"
+                     bg-indigo/5 border border-indigo/10 overflow-hidden
+                     hover:border-indigo/20 transition-all duration-500"
           data-aos="fade-up"
           data-aos-delay="100" 
         >
@@ -154,7 +154,7 @@ const SocialLinks = () => {
 
             {/* Text Container */}
             <div className="flex flex-col">
-              <span className="text-lg font-bold pt-[0.2rem] text-gray-200 tracking-tight leading-none group-hover:text-white transition-colors duration-300">
+              <span className="text-lg font-bold pt-[0.2rem] text-black-400 tracking-tight leading-none group-hover:text-black transition-colors duration-300">
                 {linkedIn.displayName}
               </span>
               <span className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
@@ -188,8 +188,8 @@ const SocialLinks = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="group relative flex items-center gap-3 p-4 rounded-xl 
-                               bg-white/5 border border-white/10 overflow-hidden
-                               hover:border-white/20 transition-all duration-500"
+                               bg-indigo/5 border border-indigo/10 overflow-hidden
+                               hover:border-indigo/20 transition-all duration-500"
               data-aos="fade-up" 
               data-aos-delay={200 + index * 100} 
             >
@@ -214,7 +214,7 @@ const SocialLinks = () => {
 
               {/* Text Container */}
               <div className="flex flex-col min-w-0">
-                <span className="text-sm font-bold text-gray-200 group-hover:text-white transition-colors duration-300">
+                <span className="text-sm font-bold text-black-200 group-hover:text-black transition-colors duration-300">
                   {link.displayName}
                 </span>
                 <span className="text-xs text-gray-400 truncate group-hover:text-gray-300 transition-colors duration-300">
@@ -247,8 +247,8 @@ const SocialLinks = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="group relative flex items-center gap-3 p-4 rounded-xl 
-                               bg-white/5 border border-white/10 overflow-hidden
-                               hover:border-white/20 transition-all duration-500"
+                               bg-indigo/5 border border-indigo/10 overflow-hidden
+                               hover:border-indigo/20 transition-all duration-500"
               data-aos="fade-up" 
               data-aos-delay={400 + index * 100}
             >
@@ -273,7 +273,7 @@ const SocialLinks = () => {
 
               {/* Text Container */}
               <div className="flex flex-col min-w-0">
-                <span className="text-sm font-bold text-gray-200 group-hover:text-white transition-colors duration-300">
+                <span className="text-sm font-bold text-black-200 group-hover:text-black transition-colors duration-300">
                   {link.displayName}
                 </span>
                 <span className="text-xs text-gray-400 truncate group-hover:text-gray-300 transition-colors duration-300">

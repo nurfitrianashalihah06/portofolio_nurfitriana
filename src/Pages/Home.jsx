@@ -23,14 +23,14 @@ const MainTitle = memo(() => (
     <h1 className="text-5xl sm:text-6xl md:text-6xl lg:text-6xl xl:text-7xl font-bold tracking-tight">
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-purple-400 to-purple-500 blur-2xl opacity-20"></span>
-        <span className="relative bg-gradient-to-r from-purple-700 via-purple-600 to-purple-500 bg-clip-text text-transparent">
+        <span className="relative bg-gradient-to-r from-purple-600 via-purple-450 to-blue-400 bg-clip-text text-transparent">
           UI/UX Designer
         </span>
       </span>
       <br />
       <span className="relative inline-block mt-2">
         <span className="absolute -inset-2 bg-gradient-to-r from-purple-400 to-purple-500 blur-2xl opacity-20"></span>
-        <span className="relative bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">
+        <span className="relative bg-gradient-to-r from-purple-600 to-blue-400 bg-clip-text text-transparent">
           Web Developer
         </span>
       </span>
